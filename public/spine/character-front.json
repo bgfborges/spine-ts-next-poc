@@ -1,0 +1,2149 @@
+{
+    "skeleton": {
+        "hash": "tYaR9qOXjCU",
+        "spine": "4.1.08",
+        "x": -858,
+        "y": -13,
+        "width": 1702,
+        "height": 2043,
+        "images": "./images/",
+        "audio": "C:/Users/Gustavo/Documents/Spine/Character/Front"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "Master",
+            "parent": "root",
+            "x": 3.48,
+            "y": 674.18
+        },
+        {
+            "name": "Pelvis",
+            "parent": "Master",
+            "length": 71.63,
+            "rotation": -90,
+            "x": -1.29,
+            "y": -13.93
+        },
+        {
+            "name": "Thigh-left",
+            "parent": "Pelvis",
+            "length": 263.61,
+            "rotation": 4.01,
+            "x": 22.24,
+            "y": 67.96
+        },
+        {
+            "name": "Leg-left",
+            "parent": "Thigh-left",
+            "length": 243.54,
+            "rotation": -10.98,
+            "x": 278.12,
+            "y": -2.87
+        },
+        {
+            "name": "Foot-left",
+            "parent": "Leg-left",
+            "length": 118.57,
+            "rotation": 32.8,
+            "x": 246.94,
+            "y": -1.42
+        },
+        {
+            "name": "Thigh-right",
+            "parent": "Pelvis",
+            "length": 261.51,
+            "rotation": -4.81,
+            "x": 22.05,
+            "y": -60.69
+        },
+        {
+            "name": "Leg-right",
+            "parent": "Thigh-right",
+            "length": 250.2,
+            "rotation": 12.18,
+            "x": 275.68,
+            "y": -0.49
+        },
+        {
+            "name": "Foot-right",
+            "parent": "Leg-right",
+            "length": 107.38,
+            "rotation": -34.46,
+            "x": 257.09,
+            "y": 2.05
+        },
+        {
+            "name": "Tail1",
+            "parent": "Pelvis",
+            "length": 409.12,
+            "rotation": 23.23,
+            "x": -16.91,
+            "y": 33.43
+        },
+        {
+            "name": "Tail3",
+            "parent": "Tail1",
+            "length": 351.29,
+            "rotation": 62.62,
+            "x": 419.19,
+            "y": 9.87
+        },
+        {
+            "name": "Torso",
+            "parent": "Master",
+            "length": 285.83,
+            "rotation": 90.92,
+            "x": 1.4,
+            "y": 47.74
+        },
+        {
+            "name": "Neck",
+            "parent": "Torso",
+            "length": 83.15,
+            "rotation": -0.92,
+            "x": 302.14,
+            "y": 0.36,
+            "transform": "noScale"
+        },
+        {
+            "name": "Head",
+            "parent": "Neck",
+            "length": 514.49,
+            "rotation": 0.3,
+            "x": 94.87,
+            "y": -0.47
+        },
+        {
+            "name": "Halo",
+            "parent": "Head",
+            "length": 345.46,
+            "rotation": -0.49,
+            "x": 554.22,
+            "y": 0.09
+        },
+        {
+            "name": "Arm-right",
+            "parent": "Torso",
+            "length": 236.57,
+            "rotation": 168.72,
+            "x": 296.58,
+            "y": 147.06,
+            "transform": "noScale"
+        },
+        {
+            "name": "Forearm-right",
+            "parent": "Arm-right",
+            "length": 168.76,
+            "rotation": 13.44,
+            "x": 245.09,
+            "y": -0.73
+        },
+        {
+            "name": "Hand-right",
+            "parent": "Forearm-right",
+            "length": 132.3,
+            "rotation": -15.95,
+            "x": 178.93,
+            "y": -3.71
+        },
+        {
+            "name": "Thumb-right",
+            "parent": "Hand-right",
+            "length": 76.54,
+            "rotation": 27.74,
+            "x": 5.78,
+            "y": 18.78
+        },
+        {
+            "name": "Arm-left",
+            "parent": "Torso",
+            "length": 246.34,
+            "rotation": -168.35,
+            "x": 298.4,
+            "y": -138.05,
+            "transform": "noScale"
+        },
+        {
+            "name": "Forearm-left",
+            "parent": "Arm-left",
+            "length": 143.17,
+            "rotation": -16.89,
+            "x": 258.37,
+            "y": 0.64
+        },
+        {
+            "name": "Hand-left",
+            "parent": "Forearm-left",
+            "length": 133.31,
+            "rotation": 20.23,
+            "x": 163.76,
+            "y": 0.97
+        },
+        {
+            "name": "Thumb-left",
+            "parent": "Hand-left",
+            "length": 69.39,
+            "rotation": -27.1,
+            "x": 9.95,
+            "y": -15.67
+        },
+        {
+            "name": "Wing-left",
+            "parent": "Torso",
+            "length": 656.83,
+            "rotation": 55.03,
+            "x": 305.43,
+            "y": 107.44,
+            "transform": "noScale"
+        },
+        {
+            "name": "Wing-right",
+            "parent": "Torso",
+            "length": 624.47,
+            "rotation": -55.86,
+            "x": 305.67,
+            "y": -100.32,
+            "transform": "noScale"
+        }
+    ],
+    "slots": [
+        {
+            "name": "Tail1",
+            "bone": "Tail1",
+            "attachment": "Tail1"
+        },
+        {
+            "name": "Tail2",
+            "bone": "Tail3",
+            "attachment": "Tail2"
+        },
+        {
+            "name": "Wing-left",
+            "bone": "Wing-left",
+            "attachment": "Wing-left"
+        },
+        {
+            "name": "Wing-right",
+            "bone": "Wing-right",
+            "attachment": "Wing-right"
+        },
+        {
+            "name": "Hair-back",
+            "bone": "Head",
+            "attachment": "Hair-back"
+        },
+        {
+            "name": "Acessorio-back",
+            "bone": "Torso",
+            "attachment": "Acessorio-back"
+        },
+        {
+            "name": "Base-Neck",
+            "bone": "Neck",
+            "attachment": "Base-Neck"
+        },
+        {
+            "name": "Head",
+            "bone": "Head",
+            "attachment": "Head"
+        },
+        {
+            "name": "Base-Foot-left",
+            "bone": "Foot-left",
+            "attachment": "Base-Foot-left"
+        },
+        {
+            "name": "Base-Foot-right",
+            "bone": "Foot-right",
+            "attachment": "Base-Foot-right"
+        },
+        {
+            "name": "Base-Leg-left",
+            "bone": "Leg-left",
+            "attachment": "Base-Leg-left"
+        },
+        {
+            "name": "Base-Leg-right",
+            "bone": "Leg-right",
+            "attachment": "Base-Leg-right"
+        },
+        {
+            "name": "Base-Thigh-right",
+            "bone": "Thigh-right",
+            "attachment": "Base-Thigh-right"
+        },
+        {
+            "name": "Base-Thigh-left",
+            "bone": "Thigh-left",
+            "attachment": "Base-Thigh-left"
+        },
+        {
+            "name": "Base-Pelvis",
+            "bone": "Pelvis",
+            "attachment": "Base-Pelvis"
+        },
+        {
+            "name": "Base-Torso",
+            "bone": "Torso",
+            "attachment": "Base-Torso"
+        },
+        {
+            "name": "Acessorio-front",
+            "bone": "Torso",
+            "attachment": "Acessorio-front"
+        },
+        {
+            "name": "Base-Hand-left",
+            "bone": "Hand-left",
+            "attachment": "Base-Hand-left"
+        },
+        {
+            "name": "Base-Thumb-left",
+            "bone": "Thumb-left",
+            "attachment": "Base-Thumb-left"
+        },
+        {
+            "name": "Base-Thumb-right",
+            "bone": "Thumb-right",
+            "attachment": "Base-Thumb-right"
+        },
+        {
+            "name": "Base-Hand-right",
+            "bone": "Hand-right",
+            "attachment": "Base-Hand-right"
+        },
+        {
+            "name": "Base-Forearm-left",
+            "bone": "Forearm-left",
+            "attachment": "Base-Forearm-left"
+        },
+        {
+            "name": "Base-Forearm-right",
+            "bone": "Forearm-right",
+            "attachment": "Base-Forearm-right"
+        },
+        {
+            "name": "Base-Arm-right",
+            "bone": "Arm-right",
+            "attachment": "Base-Arm-right"
+        },
+        {
+            "name": "Base-Arm-left",
+            "bone": "Arm-left",
+            "attachment": "Base-Arm-left"
+        },
+        {
+            "name": "Mouth-a",
+            "bone": "Head",
+            "attachment": "Mouth-a"
+        },
+        {
+            "name": "Halo",
+            "bone": "Halo",
+            "attachment": "Halo"
+        },
+        {
+            "name": "Mouth-angry",
+            "bone": "Head",
+            "attachment": "Mouth-angry"
+        },
+        {
+            "name": "Mouth-o",
+            "bone": "Head",
+            "attachment": "Mouth-o"
+        },
+        {
+            "name": "Eyes-closed",
+            "bone": "Head",
+            "attachment": "Eyes-closed"
+        },
+        {
+            "name": "Foot-right",
+            "bone": "Foot-right",
+            "attachment": "Foot-right"
+        },
+        {
+            "name": "Foot-left",
+            "bone": "Foot-left",
+            "attachment": "Foot-left"
+        },
+        {
+            "name": "Leg-left",
+            "bone": "Leg-left",
+            "attachment": "Leg-left"
+        },
+        {
+            "name": "Leg-right",
+            "bone": "Leg-right",
+            "attachment": "Leg-right"
+        },
+        {
+            "name": "Thigh-left",
+            "bone": "Thigh-left",
+            "attachment": "Thigh-left"
+        },
+        {
+            "name": "Thigh-right",
+            "bone": "Thigh-right",
+            "attachment": "Thigh-right"
+        },
+        {
+            "name": "Pelvis",
+            "bone": "Pelvis",
+            "attachment": "Pelvis"
+        },
+        {
+            "name": "Torso",
+            "bone": "Torso",
+            "attachment": "Torso"
+        },
+        {
+            "name": "Hand-right",
+            "bone": "Hand-right",
+            "attachment": "Hand-right"
+        },
+        {
+            "name": "Hand-left",
+            "bone": "Hand-left",
+            "attachment": "Hand-left"
+        },
+        {
+            "name": "Thumb-right",
+            "bone": "Thumb-right",
+            "attachment": "Thumb-right"
+        },
+        {
+            "name": "Thumb-left",
+            "bone": "Thumb-left",
+            "attachment": "Thumb-left"
+        },
+        {
+            "name": "Arm-left",
+            "bone": "Arm-left",
+            "attachment": "Arm-left"
+        },
+        {
+            "name": "Arm-right",
+            "bone": "Arm-right",
+            "attachment": "Arm-right"
+        },
+        {
+            "name": "Forearm-right",
+            "bone": "Forearm-right",
+            "attachment": "Forearm-right"
+        },
+        {
+            "name": "Forearm-left",
+            "bone": "Forearm-left",
+            "attachment": "Forearm-left"
+        },
+        {
+            "name": "Hair-front",
+            "bone": "Head",
+            "attachment": "Hair-front"
+        },
+        {
+            "name": "Hat",
+            "bone": "Head",
+            "attachment": "Hat"
+        },
+        {
+            "name": "Mouth",
+            "bone": "Head",
+            "attachment": "Mouth"
+        },
+        {
+            "name": "Eye",
+            "bone": "Head",
+            "attachment": "Eye"
+        },
+        {
+            "name": "Nose",
+            "bone": "Head",
+            "attachment": "Nose"
+        },
+        {
+            "name": "Eyebrow",
+            "bone": "Head",
+            "attachment": "Eyebrow"
+        }
+    ],
+    "skins": [
+        {
+            "name": "FullBody/Ahri",
+            "attachments": {
+                "Arm-left": {
+                    "Arm-left": {
+                        "name": "FullBody/Ahri/Arm-left",
+                        "x": 124.87,
+                        "y": 10.95,
+                        "rotation": 77.43,
+                        "width": 100,
+                        "height": 166
+                    }
+                },
+                "Arm-right": {
+                    "Arm-right": {
+                        "name": "FullBody/Ahri/Arm-right",
+                        "x": 121.35,
+                        "y": 6.85,
+                        "rotation": 100.36,
+                        "width": 102,
+                        "height": 163
+                    }
+                },
+                "Eye": {
+                    "Eye": {
+                        "name": "FullBody/Ahri/Eye",
+                        "x": 211.05,
+                        "y": -15.45,
+                        "rotation": -90.3,
+                        "width": 481,
+                        "height": 114
+                    }
+                },
+                "Eyebrow": {
+                    "Eyebrow": {
+                        "name": "FullBody/Ahri/Eyebrow",
+                        "x": 275.54,
+                        "y": -15.78,
+                        "rotation": -90.3,
+                        "width": 391,
+                        "height": 31
+                    }
+                },
+                "Eyes-closed": {
+                    "Eyes-closed": {
+                        "name": "FullBody/Ahri/Eyes-closed",
+                        "x": 198.04,
+                        "y": -15.88,
+                        "rotation": -90.3,
+                        "width": 322,
+                        "height": 60
+                    }
+                },
+                "Foot-left": {
+                    "Foot-left": {
+                        "name": "FullBody/Ahri/Foot-left",
+                        "x": 65.42,
+                        "y": 5.63,
+                        "rotation": 64.16,
+                        "width": 130,
+                        "height": 156
+                    }
+                },
+                "Foot-right": {
+                    "Foot-right": {
+                        "name": "FullBody/Ahri/Foot-right",
+                        "x": 60.5,
+                        "y": -8.86,
+                        "rotation": 117.09,
+                        "width": 131,
+                        "height": 156
+                    }
+                },
+                "Forearm-left": {
+                    "Forearm-left": {
+                        "name": "FullBody/Ahri/Forearm-left",
+                        "x": 162.71,
+                        "y": 2.75,
+                        "rotation": 94.32,
+                        "width": 71,
+                        "height": 48
+                    }
+                },
+                "Forearm-right": {
+                    "Forearm-right": {
+                        "name": "FullBody/Ahri/Forearm-right",
+                        "x": 163.34,
+                        "y": 8.45,
+                        "rotation": 86.92,
+                        "width": 73,
+                        "height": 49
+                    }
+                },
+                "Hair-back": {
+                    "Hair-back": {
+                        "name": "FullBody/Ahri/Hair-back",
+                        "x": -8.9,
+                        "y": -3.8,
+                        "rotation": -90.3,
+                        "width": 724,
+                        "height": 1138
+                    }
+                },
+                "Hair-front": {
+                    "Hair-front": {
+                        "name": "FullBody/Ahri/Hair-front",
+                        "x": 98.63,
+                        "y": 0.64,
+                        "rotation": -90.3,
+                        "width": 590,
+                        "height": 921
+                    }
+                },
+                "Hat": {
+                    "Hat": {
+                        "name": "FullBody/Ahri/Hat",
+                        "x": 531.05,
+                        "y": -15.62,
+                        "rotation": -90.3,
+                        "width": 610,
+                        "height": 328
+                    }
+                },
+                "Leg-left": {
+                    "Leg-left": {
+                        "name": "FullBody/Ahri/Leg-left",
+                        "x": 114.26,
+                        "y": -0.41,
+                        "rotation": 96.96,
+                        "width": 107,
+                        "height": 326
+                    }
+                },
+                "Leg-right": {
+                    "Leg-right": {
+                        "name": "FullBody/Ahri/Leg-right",
+                        "x": 118.69,
+                        "y": 1.38,
+                        "rotation": 82.63,
+                        "width": 107,
+                        "height": 326
+                    }
+                },
+                "Mouth": {
+                    "Mouth": {
+                        "name": "FullBody/Ahri/Mouth",
+                        "x": 74.12,
+                        "y": -0.23,
+                        "rotation": -90.3,
+                        "width": 402,
+                        "height": 102
+                    }
+                },
+                "Mouth-a": {
+                    "Mouth-a": {
+                        "name": "FullBody/Ahri/Mouth-a",
+                        "x": 59.01,
+                        "y": -21.15,
+                        "rotation": -90.3,
+                        "width": 130,
+                        "height": 86
+                    }
+                },
+                "Mouth-angry": {
+                    "Mouth-angry": {
+                        "name": "FullBody/Ahri/Mouth-angry",
+                        "x": 59.5,
+                        "y": -24.66,
+                        "rotation": -90.3,
+                        "width": 107,
+                        "height": 69
+                    }
+                },
+                "Mouth-o": {
+                    "Mouth-o": {
+                        "name": "FullBody/Ahri/Mouth-o",
+                        "x": 45.5,
+                        "y": -24.58,
+                        "rotation": -90.3,
+                        "width": 81,
+                        "height": 105
+                    }
+                },
+                "Nose": {
+                    "Nose": {
+                        "name": "FullBody/Ahri/Nose",
+                        "x": 114.49,
+                        "y": -25.44,
+                        "rotation": -90.3,
+                        "width": 30,
+                        "height": 37
+                    }
+                },
+                "Pelvis": {
+                    "Pelvis": {
+                        "name": "FullBody/Ahri/Pelvis",
+                        "x": -3.25,
+                        "y": 3.81,
+                        "rotation": 90,
+                        "width": 318,
+                        "height": 183
+                    }
+                },
+                "Tail1": {
+                    "Tail1": {
+                        "name": "FullBody/Ahri/Tail1",
+                        "x": 292.6,
+                        "y": 27.16,
+                        "rotation": 66.77,
+                        "width": 450,
+                        "height": 580
+                    }
+                },
+                "Thigh-left": {
+                    "Thigh-left": {
+                        "name": "FullBody/Ahri/Thigh-left",
+                        "x": 143.11,
+                        "y": -10.7,
+                        "rotation": 85.99,
+                        "width": 137,
+                        "height": 381
+                    }
+                },
+                "Thigh-right": {
+                    "Thigh-right": {
+                        "name": "FullBody/Ahri/Thigh-right",
+                        "x": 145.19,
+                        "y": 6.19,
+                        "rotation": 94.81,
+                        "width": 135,
+                        "height": 380
+                    }
+                },
+                "Torso": {
+                    "Torso": {
+                        "name": "FullBody/Ahri/Torso",
+                        "x": 145.1,
+                        "y": -0.44,
+                        "rotation": -90.92,
+                        "width": 302,
+                        "height": 438
+                    }
+                }
+            }
+        },
+        {
+            "name": "FullBody/Banana",
+            "attachments": {
+                "Arm-left": {
+                    "Arm-left": {
+                        "name": "FullBody/Banana/Arm-left",
+                        "x": 142.54,
+                        "y": -1.7,
+                        "rotation": 77.43,
+                        "width": 109,
+                        "height": 328
+                    }
+                },
+                "Arm-right": {
+                    "Arm-right": {
+                        "name": "FullBody/Banana/Arm-right",
+                        "x": 132.93,
+                        "y": 13.03,
+                        "rotation": 100.36,
+                        "width": 108,
+                        "height": 328
+                    }
+                },
+                "Eye": {
+                    "Eye": {
+                        "name": "FullBody/Banana/Eye",
+                        "x": 295.09,
+                        "y": -6.89,
+                        "rotation": -90.3,
+                        "width": 371,
+                        "height": 144
+                    }
+                },
+                "Eyes-closed": {
+                    "Eyes-closed": {
+                        "name": "FullBody/Banana/Eyes-closed",
+                        "x": 295.05,
+                        "y": -14.39,
+                        "rotation": -90.3,
+                        "width": 386,
+                        "height": 68
+                    }
+                },
+                "Foot-left": {
+                    "Foot-left": {
+                        "name": "FullBody/Banana/Foot-left",
+                        "x": 53.95,
+                        "y": 10.63,
+                        "rotation": 64.16,
+                        "width": 129,
+                        "height": 151
+                    }
+                },
+                "Foot-right": {
+                    "Foot-right": {
+                        "name": "FullBody/Banana/Foot-right",
+                        "x": 48.23,
+                        "y": -12.32,
+                        "rotation": 117.09,
+                        "width": 128,
+                        "height": 151
+                    }
+                },
+                "Forearm-left": {
+                    "Forearm-left": {
+                        "name": "FullBody/Banana/Forearm-left",
+                        "x": 103.37,
+                        "y": -8.24,
+                        "rotation": 94.32,
+                        "width": 76,
+                        "height": 210
+                    }
+                },
+                "Forearm-right": {
+                    "Forearm-right": {
+                        "name": "FullBody/Banana/Forearm-right",
+                        "x": 107.58,
+                        "y": 14.45,
+                        "rotation": 86.92,
+                        "width": 77,
+                        "height": 211
+                    }
+                },
+                "Hand-left": {
+                    "Hand-left": {
+                        "name": "FullBody/Banana/Hand-left",
+                        "x": 78.82,
+                        "y": 0.78,
+                        "rotation": 74.09,
+                        "width": 92,
+                        "height": 159
+                    }
+                },
+                "Hand-right": {
+                    "Hand-right": {
+                        "name": "FullBody/Banana/Hand-right",
+                        "x": 70.21,
+                        "y": 1.47,
+                        "rotation": 102.87,
+                        "width": 92,
+                        "height": 159
+                    }
+                },
+                "Hat": {
+                    "Hat": {
+                        "name": "FullBody/Banana/Hat",
+                        "x": 375.6,
+                        "y": -4.81,
+                        "rotation": -90.3,
+                        "width": 580,
+                        "height": 1173
+                    }
+                },
+                "Leg-left": {
+                    "Leg-left": {
+                        "name": "FullBody/Banana/Leg-left",
+                        "x": 123.81,
+                        "y": -0.25,
+                        "rotation": 96.96,
+                        "width": 105,
+                        "height": 317
+                    }
+                },
+                "Leg-right": {
+                    "Leg-right": {
+                        "name": "FullBody/Banana/Leg-right",
+                        "x": 127.55,
+                        "y": -0.28,
+                        "rotation": 82.63,
+                        "width": 106,
+                        "height": 316
+                    }
+                },
+                "Mouth": {
+                    "Mouth": {
+                        "name": "FullBody/Banana/Mouth",
+                        "x": 140.11,
+                        "y": -3.58,
+                        "rotation": -90.3,
+                        "width": 134,
+                        "height": 66
+                    }
+                },
+                "Mouth-a": {
+                    "Mouth-a": {
+                        "name": "FullBody/Banana/Mouth-a",
+                        "x": 134.1,
+                        "y": -5.05,
+                        "rotation": -90.3,
+                        "width": 157,
+                        "height": 102
+                    }
+                },
+                "Mouth-angry": {
+                    "Mouth-angry": {
+                        "name": "FullBody/Banana/Mouth-angry",
+                        "x": 135.07,
+                        "y": -10.55,
+                        "rotation": -90.3,
+                        "width": 128,
+                        "height": 82
+                    }
+                },
+                "Mouth-o": {
+                    "Mouth-o": {
+                        "name": "FullBody/Banana/Mouth-o",
+                        "x": 118.58,
+                        "y": -9.46,
+                        "rotation": -90.3,
+                        "width": 94,
+                        "height": 123
+                    }
+                },
+                "Pelvis": {
+                    "Pelvis": {
+                        "name": "FullBody/Banana/Pelvis",
+                        "x": 18.25,
+                        "y": -0.69,
+                        "rotation": 90,
+                        "width": 263,
+                        "height": 178
+                    }
+                },
+                "Thigh-left": {
+                    "Thigh-left": {
+                        "name": "FullBody/Banana/Thigh-left",
+                        "x": 159.1,
+                        "y": -11.32,
+                        "rotation": 85.99,
+                        "width": 132,
+                        "height": 371
+                    }
+                },
+                "Thigh-right": {
+                    "Thigh-right": {
+                        "name": "FullBody/Banana/Thigh-right",
+                        "x": 168.15,
+                        "y": 13.64,
+                        "rotation": 94.81,
+                        "width": 132,
+                        "height": 371
+                    }
+                },
+                "Thumb-left": {
+                    "Thumb-left": {
+                        "name": "FullBody/Banana/Thumb-left",
+                        "x": 46.28,
+                        "y": 9.36,
+                        "rotation": 101.19,
+                        "width": 43,
+                        "height": 88
+                    }
+                },
+                "Thumb-right": {
+                    "Thumb-right": {
+                        "name": "FullBody/Banana/Thumb-right",
+                        "x": 45.29,
+                        "y": -6.56,
+                        "rotation": 75.13,
+                        "width": 43,
+                        "height": 88
+                    }
+                },
+                "Torso": {
+                    "Torso": {
+                        "name": "FullBody/Banana/Torso",
+                        "x": 100.75,
+                        "y": 9.77,
+                        "rotation": -90.92,
+                        "width": 327,
+                        "height": 469
+                    }
+                }
+            }
+        },
+        {
+            "name": "FullBody/Base",
+            "attachments": {
+                "Base-Arm-left": {
+                    "Base-Arm-left": {
+                        "name": "FullBody/Base/Base-Arm-left",
+                        "x": 138.74,
+                        "y": -4.95,
+                        "rotation": 77.43,
+                        "width": 109,
+                        "height": 334
+                    }
+                },
+                "Base-Arm-right": {
+                    "Base-Arm-right": {
+                        "name": "FullBody/Base/Base-Arm-right",
+                        "x": 129.08,
+                        "y": 17.41,
+                        "rotation": 100.36,
+                        "width": 108,
+                        "height": 334
+                    }
+                },
+                "Base-Foot-left": {
+                    "Base-Foot-left": {
+                        "name": "FullBody/Base/Base-Foot-left",
+                        "x": 53.51,
+                        "y": 9.73,
+                        "rotation": 64.16,
+                        "width": 127,
+                        "height": 153
+                    }
+                },
+                "Base-Foot-right": {
+                    "Base-Foot-right": {
+                        "name": "FullBody/Base/Base-Foot-right",
+                        "x": 48,
+                        "y": -11.88,
+                        "rotation": 117.09,
+                        "width": 127,
+                        "height": 153
+                    }
+                },
+                "Base-Forearm-left": {
+                    "Base-Forearm-left": {
+                        "name": "FullBody/Base/Base-Forearm-left",
+                        "x": 92.05,
+                        "y": -11.1,
+                        "rotation": 94.32,
+                        "width": 76,
+                        "height": 215
+                    }
+                },
+                "Base-Forearm-right": {
+                    "Base-Forearm-right": {
+                        "name": "FullBody/Base/Base-Forearm-right",
+                        "x": 96.89,
+                        "y": 20.53,
+                        "rotation": 86.92,
+                        "width": 76,
+                        "height": 215
+                    }
+                },
+                "Base-Hand-left": {
+                    "Base-Hand-left": {
+                        "name": "FullBody/Base/Base-Hand-left",
+                        "x": 74.9,
+                        "y": -0.18,
+                        "rotation": 74.09,
+                        "width": 82,
+                        "height": 152
+                    }
+                },
+                "Base-Hand-right": {
+                    "Base-Hand-right": {
+                        "name": "FullBody/Base/Base-Hand-right",
+                        "x": 63.47,
+                        "y": 4.04,
+                        "rotation": 102.87,
+                        "width": 92,
+                        "height": 161
+                    }
+                },
+                "Base-Leg-left": {
+                    "Base-Leg-left": {
+                        "name": "FullBody/Base/Base-Leg-left",
+                        "x": 104.02,
+                        "y": -3.17,
+                        "rotation": 96.96,
+                        "width": 106,
+                        "height": 325
+                    }
+                },
+                "Base-Leg-right": {
+                    "Base-Leg-right": {
+                        "name": "FullBody/Base/Base-Leg-right",
+                        "x": 109.09,
+                        "y": 5.14,
+                        "rotation": 82.63,
+                        "width": 106,
+                        "height": 322
+                    }
+                },
+                "Base-Neck": {
+                    "Base-Neck": {
+                        "name": "FullBody/Base/Base-Neck",
+                        "x": 60.49,
+                        "y": -7.81,
+                        "rotation": -90,
+                        "width": 119,
+                        "height": 109
+                    }
+                },
+                "Base-Pelvis": {
+                    "Base-Pelvis": {
+                        "name": "FullBody/Base/Base-Pelvis",
+                        "x": -8.25,
+                        "y": 0.31,
+                        "rotation": 90,
+                        "width": 259,
+                        "height": 181
+                    }
+                },
+                "Base-Thigh-left": {
+                    "Base-Thigh-left": {
+                        "name": "FullBody/Base/Base-Thigh-left",
+                        "x": 136.12,
+                        "y": -10.21,
+                        "rotation": 85.99,
+                        "width": 129,
+                        "height": 381
+                    }
+                },
+                "Base-Thigh-right": {
+                    "Base-Thigh-right": {
+                        "name": "FullBody/Base/Base-Thigh-right",
+                        "x": 136.51,
+                        "y": 7.97,
+                        "rotation": 94.81,
+                        "width": 130,
+                        "height": 381
+                    }
+                },
+                "Base-Thumb-left": {
+                    "Base-Thumb-left": {
+                        "name": "FullBody/Base/Base-Thumb-left",
+                        "x": 40.39,
+                        "y": 8.2,
+                        "rotation": 101.19,
+                        "width": 43,
+                        "height": 92
+                    }
+                },
+                "Base-Thumb-right": {
+                    "Base-Thumb-right": {
+                        "name": "FullBody/Base/Base-Thumb-right",
+                        "x": 34.91,
+                        "y": -2.77,
+                        "rotation": 75.13,
+                        "width": 41,
+                        "height": 92
+                    }
+                },
+                "Base-Torso": {
+                    "Base-Torso": {
+                        "name": "FullBody/Base/Base-Torso",
+                        "x": 146.08,
+                        "y": -1.46,
+                        "rotation": -90.92,
+                        "width": 294,
+                        "height": 430
+                    }
+                },
+                "Head": {
+                    "Head": {
+                        "name": "FullBody/Base/Base-Head",
+                        "x": 258.12,
+                        "y": -1.19,
+                        "rotation": -90.3,
+                        "width": 548,
+                        "height": 578
+                    }
+                }
+            }
+        },
+        {
+            "name": "FullBody/Emil",
+            "attachments": {
+                "Acessorio-back": {
+                    "Acessorio-back": {
+                        "name": "FullBody/Emil/Acessorio-back",
+                        "x": 9.24,
+                        "y": -21.77,
+                        "rotation": -90.92,
+                        "width": 823,
+                        "height": 885
+                    }
+                },
+                "Acessorio-front": {
+                    "Acessorio-front": {
+                        "name": "FullBody/Emil/Acessorio-front",
+                        "x": 234.84,
+                        "y": -16.88,
+                        "rotation": -90.92,
+                        "width": 416,
+                        "height": 406
+                    }
+                },
+                "Arm-left": {
+                    "Arm-left": {
+                        "name": "FullBody/Emil/Arm-left",
+                        "x": 137.06,
+                        "y": 3.62,
+                        "rotation": 77.43,
+                        "width": 117,
+                        "height": 339
+                    }
+                },
+                "Arm-right": {
+                    "Arm-right": {
+                        "name": "FullBody/Emil/Arm-right",
+                        "x": 127.25,
+                        "y": 7.93,
+                        "rotation": 100.36,
+                        "width": 118,
+                        "height": 339
+                    }
+                },
+                "Foot-left": {
+                    "Foot-left": {
+                        "name": "FullBody/Emil/Foot-left",
+                        "x": 52.8,
+                        "y": 12.85,
+                        "rotation": 64.16,
+                        "width": 130,
+                        "height": 153
+                    }
+                },
+                "Foot-right": {
+                    "Foot-right": {
+                        "name": "FullBody/Emil/Foot-right",
+                        "x": 47.59,
+                        "y": -15.46,
+                        "rotation": 117.09,
+                        "width": 131,
+                        "height": 157
+                    }
+                },
+                "Forearm-left": {
+                    "Forearm-left": {
+                        "name": "FullBody/Emil/Forearm-left",
+                        "x": 102.49,
+                        "y": -3.3,
+                        "rotation": 94.32,
+                        "width": 92,
+                        "height": 257
+                    }
+                },
+                "Forearm-right": {
+                    "Forearm-right": {
+                        "name": "FullBody/Emil/Forearm-right",
+                        "x": 113.43,
+                        "y": 11.63,
+                        "rotation": 86.92,
+                        "width": 94,
+                        "height": 269
+                    }
+                },
+                "Hand-left": {
+                    "Hand-left": {
+                        "name": "FullBody/Emil/Hand-left",
+                        "x": 73.66,
+                        "y": 2.77,
+                        "rotation": 74.09,
+                        "width": 93,
+                        "height": 160
+                    }
+                },
+                "Hand-right": {
+                    "Hand-right": {
+                        "name": "FullBody/Emil/Hand-right",
+                        "x": 62.87,
+                        "y": 4.41,
+                        "rotation": 102.87,
+                        "width": 93,
+                        "height": 160
+                    }
+                },
+                "Hat": {
+                    "Hat": {
+                        "name": "FullBody/Emil/Hat",
+                        "x": 252.08,
+                        "y": -9.16,
+                        "rotation": -90.3,
+                        "width": 590,
+                        "height": 590
+                    }
+                },
+                "Leg-left": {
+                    "Leg-left": {
+                        "name": "FullBody/Emil/Leg-left",
+                        "x": 99.37,
+                        "y": -2.23,
+                        "rotation": 96.96,
+                        "width": 107,
+                        "height": 320
+                    }
+                },
+                "Leg-right": {
+                    "Leg-right": {
+                        "name": "FullBody/Emil/Leg-right",
+                        "x": 104.37,
+                        "y": 3.73,
+                        "rotation": 82.63,
+                        "width": 106,
+                        "height": 321
+                    }
+                },
+                "Pelvis": {
+                    "Pelvis": {
+                        "name": "FullBody/Emil/Pelvis",
+                        "x": 131.75,
+                        "y": -1.69,
+                        "rotation": 90,
+                        "width": 371,
+                        "height": 481
+                    }
+                },
+                "Thigh-left": {
+                    "Thigh-left": {
+                        "name": "FullBody/Emil/Thigh-left",
+                        "x": 132.77,
+                        "y": -7.97,
+                        "rotation": 85.99,
+                        "width": 135,
+                        "height": 376
+                    }
+                },
+                "Thigh-right": {
+                    "Thigh-right": {
+                        "name": "FullBody/Emil/Thigh-right",
+                        "x": 134.19,
+                        "y": 5.77,
+                        "rotation": 94.81,
+                        "width": 134,
+                        "height": 376
+                    }
+                },
+                "Thumb-left": {
+                    "Thumb-left": {
+                        "name": "FullBody/Emil/Thumb-left",
+                        "x": 37.26,
+                        "y": 11.15,
+                        "rotation": 101.19,
+                        "width": 44,
+                        "height": 89
+                    }
+                },
+                "Thumb-right": {
+                    "Thumb-right": {
+                        "name": "FullBody/Emil/Thumb-right",
+                        "x": 31.21,
+                        "y": -6.96,
+                        "rotation": 75.13,
+                        "width": 43,
+                        "height": 89
+                    }
+                },
+                "Torso": {
+                    "Torso": {
+                        "name": "FullBody/Emil/Torso",
+                        "x": 117.16,
+                        "y": 3.51,
+                        "rotation": -90.92,
+                        "width": 337,
+                        "height": 482
+                    }
+                }
+            }
+        },
+        {
+            "name": "FullBody/Yueh",
+            "attachments": {
+                "Acessorio-back": {
+                    "Acessorio-back": {
+                        "name": "FullBody/Yueh/Acessorio-back",
+                        "x": 379.05,
+                        "y": -5.19,
+                        "rotation": -90.92,
+                        "width": 358,
+                        "height": 86
+                    }
+                },
+                "Acessorio-front": {
+                    "Acessorio-front": {
+                        "name": "FullBody/Yueh/Acessorio-front",
+                        "x": -127.07,
+                        "y": 147.43,
+                        "rotation": -90.92,
+                        "width": 117,
+                        "height": 237
+                    }
+                },
+                "Arm-left": {
+                    "Arm-left": {
+                        "name": "FullBody/Yueh/Arm-left",
+                        "x": 126.92,
+                        "y": 1.78,
+                        "rotation": 77.43,
+                        "width": 139,
+                        "height": 328
+                    }
+                },
+                "Arm-right": {
+                    "Arm-right": {
+                        "name": "FullBody/Yueh/Arm-right",
+                        "x": 114.77,
+                        "y": 12.25,
+                        "rotation": 100.36,
+                        "width": 135,
+                        "height": 332
+                    }
+                },
+                "Eye": {
+                    "Eye": {
+                        "name": "FullBody/Yueh/Eye",
+                        "x": 254.12,
+                        "y": -2.17,
+                        "rotation": -90.3,
+                        "width": 454,
+                        "height": 136
+                    }
+                },
+                "Eyebrow": {
+                    "Eyebrow": {
+                        "name": "FullBody/Yueh/Eyebrow",
+                        "x": 346.62,
+                        "y": -2.16,
+                        "rotation": -90.3,
+                        "width": 321,
+                        "height": 27
+                    }
+                },
+                "Eyes-closed": {
+                    "Eyes-closed": {
+                        "name": "FullBody/Yueh/Eyes-closed",
+                        "x": 234.17,
+                        "y": 7.93,
+                        "rotation": -90.3,
+                        "width": 386,
+                        "height": 68
+                    }
+                },
+                "Foot-left": {
+                    "Foot-left": {
+                        "name": "FullBody/Yueh/Foot-left",
+                        "x": 59.94,
+                        "y": 13.84,
+                        "rotation": 64.16,
+                        "width": 148,
+                        "height": 161
+                    }
+                },
+                "Foot-right": {
+                    "Foot-right": {
+                        "name": "FullBody/Yueh/Foot-right",
+                        "x": 51.13,
+                        "y": -11.4,
+                        "rotation": 117.09,
+                        "width": 137,
+                        "height": 161
+                    }
+                },
+                "Forearm-left": {
+                    "Forearm-left": {
+                        "name": "FullBody/Yueh/Forearm-left",
+                        "x": 80.21,
+                        "y": -6.98,
+                        "rotation": 94.32,
+                        "width": 102,
+                        "height": 234
+                    }
+                },
+                "Forearm-right": {
+                    "Forearm-right": {
+                        "name": "FullBody/Yueh/Forearm-right",
+                        "x": 77.41,
+                        "y": 12.07,
+                        "rotation": 86.92,
+                        "width": 111,
+                        "height": 235
+                    }
+                },
+                "Hair-back": {
+                    "Hair-back": {
+                        "name": "FullBody/Yueh/Hair-back",
+                        "x": 7.18,
+                        "y": 11.12,
+                        "rotation": -90.3,
+                        "width": 738,
+                        "height": 1194
+                    }
+                },
+                "Hair-front": {
+                    "Hair-front": {
+                        "name": "FullBody/Yueh/Hair-front",
+                        "x": 264.07,
+                        "y": -11.72,
+                        "rotation": -90.3,
+                        "width": 545,
+                        "height": 690
+                    }
+                },
+                "Halo": {
+                    "Halo": {
+                        "name": "FullBody/Yueh/Halo",
+                        "x": 218.38,
+                        "y": 9.4,
+                        "rotation": -89.81,
+                        "width": 889,
+                        "height": 277
+                    }
+                },
+                "Hand-left": {
+                    "Hand-left": {
+                        "name": "FullBody/Yueh/Hand-left",
+                        "x": 71.54,
+                        "y": -2.87,
+                        "rotation": 74.09,
+                        "width": 99,
+                        "height": 169
+                    }
+                },
+                "Hand-right": {
+                    "Hand-right": {
+                        "name": "FullBody/Yueh/Hand-right",
+                        "x": 65.86,
+                        "y": 2.53,
+                        "rotation": 102.87,
+                        "width": 94,
+                        "height": 165
+                    }
+                },
+                "Hat": {
+                    "Hat": {
+                        "name": "FullBody/Yueh/Hat",
+                        "x": 504.62,
+                        "y": -1.98,
+                        "rotation": -90.3,
+                        "width": 613,
+                        "height": 277
+                    }
+                },
+                "Leg-left": {
+                    "Leg-left": {
+                        "name": "FullBody/Yueh/Leg-left",
+                        "x": 107.87,
+                        "y": -1.7,
+                        "rotation": 96.96,
+                        "width": 118,
+                        "height": 341
+                    }
+                },
+                "Leg-right": {
+                    "Leg-right": {
+                        "name": "FullBody/Yueh/Leg-right",
+                        "x": 113.75,
+                        "y": 6.05,
+                        "rotation": 82.63,
+                        "width": 119,
+                        "height": 345
+                    }
+                },
+                "Mouth": {
+                    "Mouth": {
+                        "name": "FullBody/Yueh/Mouth",
+                        "x": 68.05,
+                        "y": -13.7,
+                        "rotation": -90.3,
+                        "width": 173,
+                        "height": 88
+                    }
+                },
+                "Mouth-a": {
+                    "Mouth-a": {
+                        "name": "FullBody/Yueh/Mouth-a",
+                        "x": 65.14,
+                        "y": 2.32,
+                        "rotation": -90.3,
+                        "width": 157,
+                        "height": 102
+                    }
+                },
+                "Mouth-angry": {
+                    "Mouth-angry": {
+                        "name": "FullBody/Yueh/Mouth-angry",
+                        "x": 66.11,
+                        "y": -3.19,
+                        "rotation": -90.3,
+                        "width": 128,
+                        "height": 82
+                    }
+                },
+                "Mouth-o": {
+                    "Mouth-o": {
+                        "name": "FullBody/Yueh/Mouth-o",
+                        "x": 49.61,
+                        "y": -2.1,
+                        "rotation": -90.3,
+                        "width": 94,
+                        "height": 123
+                    }
+                },
+                "Nose": {
+                    "Nose": {
+                        "name": "FullBody/Yueh/Nose",
+                        "x": 146.12,
+                        "y": -1.61,
+                        "rotation": -90.3,
+                        "width": 76,
+                        "height": 40
+                    }
+                },
+                "Pelvis": {
+                    "Pelvis": {
+                        "name": "FullBody/Yueh/Pelvis",
+                        "x": -54.25,
+                        "y": -1.69,
+                        "rotation": 90,
+                        "width": 291,
+                        "height": 187
+                    }
+                },
+                "Tail1": {
+                    "Tail1": {
+                        "name": "FullBody/Yueh/Tail1",
+                        "x": 225.55,
+                        "y": 1.53,
+                        "rotation": 66.77,
+                        "width": 326,
+                        "height": 495
+                    }
+                },
+                "Tail2": {
+                    "Tail2": {
+                        "name": "FullBody/Yueh/Tail2",
+                        "x": 167.91,
+                        "y": 27.35,
+                        "rotation": 4.14,
+                        "width": 503,
+                        "height": 286
+                    }
+                },
+                "Thigh-left": {
+                    "Thigh-left": {
+                        "name": "FullBody/Yueh/Thigh-left",
+                        "x": 123.76,
+                        "y": -7.84,
+                        "rotation": 85.99,
+                        "width": 142,
+                        "height": 398
+                    }
+                },
+                "Thigh-right": {
+                    "Thigh-right": {
+                        "name": "FullBody/Yueh/Thigh-right",
+                        "x": 124.56,
+                        "y": 6.97,
+                        "rotation": 94.81,
+                        "width": 150,
+                        "height": 395
+                    }
+                },
+                "Thumb-left": {
+                    "Thumb-left": {
+                        "name": "FullBody/Yueh/Thumb-left",
+                        "x": 34.6,
+                        "y": 3.99,
+                        "rotation": 101.19,
+                        "width": 45,
+                        "height": 97
+                    }
+                },
+                "Thumb-right": {
+                    "Thumb-right": {
+                        "name": "FullBody/Yueh/Thumb-right",
+                        "x": 36.01,
+                        "y": -2.55,
+                        "rotation": 75.13,
+                        "width": 44,
+                        "height": 94
+                    }
+                },
+                "Torso": {
+                    "Torso": {
+                        "name": "FullBody/Yueh/Torso",
+                        "x": 123.67,
+                        "y": 4.4,
+                        "rotation": -90.92,
+                        "width": 317,
+                        "height": 515
+                    }
+                },
+                "Wing-left": {
+                    "Wing-left": {
+                        "name": "FullBody/Yueh/Wing-left",
+                        "x": 402.32,
+                        "y": 20.94,
+                        "rotation": -145.95,
+                        "width": 811,
+                        "height": 733
+                    }
+                },
+                "Wing-right": {
+                    "Wing-right": {
+                        "name": "FullBody/Yueh/Wing-right",
+                        "x": 394.63,
+                        "y": -27.26,
+                        "rotation": -35.06,
+                        "width": 810,
+                        "height": 733
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "Idle": {
+            "bones": {
+                "Torso": {
+                    "scale": [
+                        {
+                            "curve": [
+                                0.333,
+                                1,
+                                0.667,
+                                1.08,
+                                0.333,
+                                1,
+                                0.667,
+                                1.08
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.08,
+                            "y": 1.08,
+                            "curve": [
+                                1.333,
+                                1.08,
+                                1.667,
+                                1,
+                                1.333,
+                                1.08,
+                                1.667,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Arm-right": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -5.04
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Arm-left": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": 2.74
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Forearm-right": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": 5.19
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Forearm-left": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": -4.13
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Tail1": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": 5.8
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Tail3": {
+                    "rotate": [
+                        {},
+                        {
+                            "time": 1,
+                            "value": 3.71
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Wing-left": {
+                    "shear": [
+                        {},
+                        {
+                            "time": 1,
+                            "x": -9.9
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                },
+                "Wing-right": {
+                    "shear": [
+                        {},
+                        {
+                            "time": 1,
+                            "x": 8.41
+                        },
+                        {
+                            "time": 2
+                        }
+                    ]
+                }
+            }
+        },
+        "Walk": {
+            "bones": {
+                "Thigh-right": {
+                    "scalex": [
+                        {
+                            "curve": [
+                                0.099,
+                                1.026,
+                                0.222,
+                                1.05
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 1.05,
+                            "curve": [
+                                0.444,
+                                1.05,
+                                0.555,
+                                1.025
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.779,
+                                0.974,
+                                0.889,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 0.95,
+                            "curve": [
+                                1.111,
+                                0.95,
+                                1.216,
+                                0.974
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Thigh-left": {
+                    "scalex": [
+                        {
+                            "curve": [
+                                0.113,
+                                0.974,
+                                0.222,
+                                0.95
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 0.95,
+                            "curve": [
+                                0.444,
+                                0.95,
+                                0.55,
+                                0.974
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.766,
+                                1.026,
+                                0.889,
+                                1.05
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 1.05,
+                            "curve": [
+                                1.111,
+                                1.05,
+                                1.222,
+                                1.025
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Torso": {
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "x": 0.98
+                        },
+                        {
+                            "time": 0.6667
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.98
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Tail1": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.222,
+                                0,
+                                0.444,
+                                2.56
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 2.56,
+                            "curve": [
+                                0.889,
+                                2.56,
+                                1.111,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Wing-left": {
+                    "shearx": [
+                        {},
+                        {
+                            "time": 0.6667,
+                            "value": -5.6
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Wing-right": {
+                    "shearx": [
+                        {},
+                        {
+                            "time": 0.6667,
+                            "value": 4.03
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Arm-right": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.105,
+                                -1.21,
+                                0.222,
+                                -2.73
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -2.73,
+                            "curve": [
+                                0.444,
+                                -2.73,
+                                0.557,
+                                -1.28
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.776,
+                                1.27,
+                                0.889,
+                                3.22
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 3.22,
+                            "curve": [
+                                1.111,
+                                3.22,
+                                1.216,
+                                1.42
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "x": 0.976,
+                            "y": 0.976
+                        },
+                        {
+                            "time": 0.6667
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.027,
+                            "y": 1.027
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Forearm-right": {
+                    "rotate": [
+                        {
+                            "value": 6.24
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": 1.5
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": 6.24
+                        },
+                        {
+                            "time": 1,
+                            "value": 10.76
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": 6.24
+                        }
+                    ]
+                },
+                "Arm-left": {
+                    "rotate": [
+                        {
+                            "curve": [
+                                0.107,
+                                -1.2,
+                                0.222,
+                                -2.66
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -2.66,
+                            "curve": [
+                                0.444,
+                                -2.66,
+                                0.554,
+                                -1.36
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "curve": [
+                                0.776,
+                                1.33,
+                                0.889,
+                                2.99
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "value": 2.99,
+                            "curve": [
+                                1.111,
+                                2.99,
+                                1.221,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ],
+                    "scale": [
+                        {},
+                        {
+                            "time": 0.3333,
+                            "x": 1.027,
+                            "y": 1.027
+                        },
+                        {
+                            "time": 0.6667
+                        },
+                        {
+                            "time": 1,
+                            "x": 0.976,
+                            "y": 0.976
+                        },
+                        {
+                            "time": 1.3333
+                        }
+                    ]
+                },
+                "Forearm-left": {
+                    "rotate": [
+                        {
+                            "value": -8
+                        },
+                        {
+                            "time": 0.3333,
+                            "value": -14
+                        },
+                        {
+                            "time": 0.6667,
+                            "value": -8
+                        },
+                        {
+                            "time": 1,
+                            "value": -2.17
+                        },
+                        {
+                            "time": 1.3333,
+                            "value": -8
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
